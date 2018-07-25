@@ -1,0 +1,105 @@
+.slider {
+  position: relative;
+  z-index: 2;
+  display: block; }
+
+.owl-carousel .item {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.gradient-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #232323;
+  background-image: -webkit-linear-gradient(161deg, #503392 0%, #673ab7 49%, #00bff3 100%);
+  background-image: -o-linear-gradient(161deg, #503392 0%, #673ab7 49%, #00bff3 100%);
+  background-image: linear-gradient(-71deg, #503392 0%, #673ab7 49%, #00bff3 100%);
+  opacity: 0.8;
+  z-index: 12; }
+
+.owl-content {
+  z-index: 99;
+  position: absolute;
+  text-align: center; }
+
+.owl-title {
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 46px; }
+
+.owl-description {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.64px;
+  max-width: 740px;
+  margin: auto; }
+
+.owl-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative; }
+
+.owl-dots {
+  position: absolute;
+  bottom: 41px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%); }
+
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+
+.owl-prev, .owl-next {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2) !important; }
+
+.owl-prev {
+  left: 40px; }
+
+.owl-next {
+  right: 40px; }
+
+.owl-prev span, .owl-next span {
+  width: 6px;
+  height: 10px;
+  color: #fff; }
+
+.owl-dot {
+  width: 8px;
+  height: 7px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-right: 5px;
+  background: #b7b7b7 !important; }
+
+.owl-dot.active {
+  opacity: .6; }

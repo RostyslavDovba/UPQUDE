@@ -1,0 +1,66 @@
+.choose-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 50px; }
+
+.choose {
+  margin: 115px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.choose-item {
+  display: block;
+  border: 1px solid #ebebeb;
+  padding: 30px 22px 26px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+  overflow: hidden; }
+  .choose-item .item-container i {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #503392; }
+  .choose-item .choose-item__title-text {
+    margin-top: 50px;
+    color: #232323;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px; }
+  .choose-item .choose-item__description-text {
+    margin-top: 28px;
+    color: #373737;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.56px; }
